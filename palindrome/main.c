@@ -22,6 +22,6 @@ int main(int argc, char* argv[]) {
     line[strcspn(line, "\n")] = '\0';
     printf("Is the string <%s> a palindrome? %s\n", line, palindrome(line));
   }
-
+	
   free(line);
 }
